@@ -73,6 +73,9 @@ ClassifyLayer.setting.txtに「未来」や「未来 太郎」といった行を
 最新のPSDToolKitを導入している前提です。
 
 # 更新履歴
+## JimakuMaker 2021/07/01
+改行が反映されていなかったバグを修正。
+
 ## wav2exo 2020/05/20
 VOICEROID2エディタやCevioで出力したWAVファイルではないWAVファイルが、正しく読み込めなかったのを一応対応。
 
