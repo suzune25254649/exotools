@@ -2,7 +2,7 @@
 ボイスロイドやCeVIOで生成した音声ファイルを元に、aviutl用のひな型プロジェクトを作成してくれるツール群です。
 
 # ダウンロードの仕方
-右上にある"Clone or download"をクリックし、"Download ZIP"を選んでください。
+右上にある"Code"をクリックし、"Download ZIP"を選んでください。
 
 # 寄付の仕方
 https://www.amazon.co.jp/Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-E%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%97/dp/BT00DHI8G4
