@@ -78,6 +78,16 @@ if %ERRORLEVEL% neq 0 (
 echo.
 
 echo -----------------------------------------------------------------------
+echo ◆◆"多目的スライダー@PSDToolKit"を用意するね♪
+echo -----------------------------------------------------------------------
+tools\MultiSliderMaker %filename%.exo -o %filename%.MultiSliderMaker.exo -np
+if %ERRORLEVEL% neq 0 (
+	pause
+	exit /b 4
+)
+echo.
+
+echo -----------------------------------------------------------------------
 echo ◆◆使われていないレイヤーを削除するね♪
 echo -----------------------------------------------------------------------
 tools\PackLayer %filename%.exo -o %filename%.exo -np
@@ -91,6 +101,11 @@ if %ERRORLEVEL% neq 0 (
 	exit /b 5
 )
 tools\PackLayer %filename%.JimakuMaker.exo -o %filename%.JimakuMaker.exo -np
+if %ERRORLEVEL% neq 0 (
+	pause
+	exit /b 5
+)
+tools\PackLayer %filename%.MultiSliderMaker.exo -o %filename%.MultiSliderMaker.exo -np
 if %ERRORLEVEL% neq 0 (
 	pause
 	exit /b 5
