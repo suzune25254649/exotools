@@ -73,6 +73,9 @@ ClassifyLayer.setting.txtに「未来」や「未来 太郎」といった行を
 最新のPSDToolKitを導入している前提です。
 
 # 更新履歴
+## MultiSliderMaker 2021/08/07
+MultiSliderMakerを追加。
+
 ## JimakuMaker 2021/07/01
 改行が反映されていなかったバグを修正。
 
