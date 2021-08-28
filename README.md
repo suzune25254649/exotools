@@ -34,6 +34,13 @@ toolsフォルダ内にあります。
 
 足りないボイロ名は、適宜足してください。
 
+# ExtendObject
+exoファイルをドラッグインすると動作します。
+
+含まれる全てのオブジェクトを、後ろに延長することでオブジェクト間の隙間を無くします。
+
+MultiSliderMakerで生成したexoファイルをドラッグインし、多目的スライダーオブジェクト間の隙間を無くすために使うことを想定しています。
+
 # SliceObject
 exoファイルをドラッグインすると動作します。
 
@@ -73,6 +80,14 @@ ClassifyLayer.setting.txtに「未来」や「未来 太郎」といった行を
 最新のPSDToolKitを導入している前提です。
 
 # 更新履歴
+
+## exeファイル全般 2021/08/28
+exeファイル全般の更新。
+
+ExtendObjectを追加。
+
+MultiSliderMakerが"*.param.txt"ファイルを参照し、最初からスライダー値を設定した状態で生成されるようにしました。
+
 ## JimakuMaker, ClassifyLayer 2021/08/07
 UTF-8と、UTF-16LEに対応しました。ただし、どちらもBOMが必要です。
 
