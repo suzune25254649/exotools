@@ -73,8 +73,9 @@ ClassifyLayer.setting.txtに存在しないボイロ名は無視されます。
 
 ClassifyLayer.setting.txtに「未来」や「未来 太郎」といった行を追加してください。
 
-## FPS 60の動画に使いたい
-動画設定が書かれた JimakuMaker.setting.exo と wav2exo.setting.exo の中に、rateという設定があるので30から60に変更してください。
+## 音声オブジェクトが正しい長さにならない
+動画のフレームレートが、デフォルトの30でない場合になります。  
+30の動画に使用したい場合はtoolsフォルダにある、 JimakuMaker.setting.exo と wav2exo.setting.exo をテキストエディタで開き、rateの設定を30から自身の動画のレートに変更してください。
 
 ## 口パクや字幕の使い方が分からない
 最新のPSDToolKitを導入している前提です。
